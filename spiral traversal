@@ -40,7 +40,7 @@ public class Main {
                   count++;
              }
              maxrow--;
-             for(int i=maxrow,j=maxcol;i>=0 && count<te;i--)
+             for(int i=maxrow,j=maxcol;i>=minrow && count<te;i--)
              {
                  System.out.println(arr[i][j]);
                   count++;
